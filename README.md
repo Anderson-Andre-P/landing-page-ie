@@ -1,87 +1,158 @@
-# Free Tailwind landing page template
+<!---
+Titulo: Landing Page IE Tec
+Nome do repositório: landing-page-ie
+Data do upload: 17.07.23
+Cor do badge: 5965e0
+-->
 
-![Simple TailwindCSS template preview](https://user-images.githubusercontent.com/2683512/231426766-72ae7bcd-618b-4a3e-87cd-b46a464bde61.png)
+<h1 align="center">Landing Page IE Tec</h1>
 
-**Simple Light** is a free landing page template built on top of **TailwindCSS** and fully coded in **React** / **Next.js**. Simple light is designed to provide all the basic components a developer need to create a landing page for SaaS products, online services, and more. 
-Use it for whatever you want, and be sure to reach us out on Twitter if you build anything cool/useful with it.
-Created and maintained with ❤️ by [Cruip.com](https://cruip.com/).
+<p align="center">
+  <a href="https://github.com/Anderson-Andre-P/landing-page-ie">
+    <img alt="Made by Anderson André" src="https://img.shields.io/badge/-Github-5965e0?style=for-the-badge&logo=Github&logoColor=white&link=https://github.com/Anderson-Andre-P" />
+  </a>
+  <a href="https://www.linkedin.com/in/anderson-andre-pereira/">
+      <img alt="Anderson André" src="https://img.shields.io/badge/-Anderson%20André-5965e0?style=for-the-badge&logo=Linkedin&logoColor=white" />
+   </a>
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Anderson-Andre-P/landing-page-ie?style=for-the-badge&label=Repo%20Size:&labelColor=5965e0&color=5965e0">
+  </p>
 
-*Version 1.3.3 built with Tailwind CSS and React + Vite is available [here](https://github.com/cruip/tailwind-landing-page-template/releases/tag/1.3.3).*
+  <p align="center">
+    <img src="https://img.shields.io/badge/landing_page_ie-17.07.23-5965e0?style=for-the-badge&labelColor=5965e0">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Anderson-Andre-P/landing-page-ie?style=for-the-badge&label=last%20commit:&labelColor=5965e0&color=5965e0">
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-5965e0?style=for-the-badge&labelColor=5965e0&color=5965e0">
+</p>
 
-## Live demo
+<p align="center">
+  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-how-to-contribute">How to Contribute</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-executing-project">Executing Project</a> &#xa0; | &#xa0;
+  <a href="#memo-license">License</a> &#xa0; | &#xa0;
+  <a href="https://github.com/Anderson-Andre-P" target="_blank">Author</a>
+</p>
 
-Check the live demo here 👉️ [https://simple.cruip.com/](https://simple.cruip.com/)
+## :link: Demo
 
-## Simple Pro
+![Thumbnail](/images/Thumbnail.png)
 
-[![Simple Pro](https://user-images.githubusercontent.com/2683512/151178282-fd81b300-349a-42c3-a30a-f70f6e711e74.png)](https://cruip.com/)
+<a href="https://ie-tech.netlify.app/">
+    <img alt="Made by Anderson André" src="https://img.shields.io/badge/-Demo-FE0002?style=for-the-badge&logoColor=white&link=https://ie-tech.netlify.app/" />
+</a>
 
-## Design files
+## :dart: About
 
-If you need the design files, you can download them from Figma's Community 👉 https://bit.ly/3HOZMpf
+This project was developed with the aim of creating an institutional page for the company IE Tecnologia. During the process, several features were implemented and important milestones were achieved to achieve this goal. In this summary, we will present an overview of the project, highlighting its main features and achievements.
 
-## Usage
+#### Functionalities Implemented
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+1. Responsiveness to various device sizes
+2. Good transitions and animations
+3. Success in delivering the desired message
 
-### Getting Started
+#### Main Achievements
 
-First, run the development server:
+- [x] Best practices in web development
+- [x] Lightweight website
+- [x] Performance
+- [x] Accessibility
+
+![Lighthouse](/images/lighthouse.png)
+
+## :rocket: Technologies
+
+The project was developed using the following technologies and tools:
+
+### Front-end
+
+- [React.JS](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Next.JS](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+### Build Tools
+
+- [Vite](https://vitejs.dev/)
+
+### Pakage Manager
+
+- [Yarn](https://yarnpkg.com/)
+
+## :white_check_mark: How to Contribute
+
+If you want to contribute to the project, you can follow these steps:
+
+#### Step 1
+
+Fork this repository and clone it to your local machine using the code bellow.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+https://github.com/Anderson-Andre-P/landing-page-ie
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Step 2
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Create a new branch with a descriptive name for your contribution.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```bash
+git checkout -b my-feature
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+#### Step 3
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Implement your modifications or additions.
 
-### Learn More
+#### Step 4
 
-To learn more about Next.js, take a look at the following resources:
+Perform the necessary tests to ensure that your changes work properly.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Step 5
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Commit your changes and push them to your repository.
 
-### Deploy on Vercel
+```bash
+git commit -m "feat: My new feature"
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### Step 6
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Open a pull request against this repository, describing your changes and providing additional information if needed.
 
+After your Pull Request is merged, can you delete your feature branch.
 
-### Support notes
-This template has been developed with the App Router (`app`) and React Server Components. If you’re unfamiliar with these beta features, you can find more information about them on the Next.js beta documentation page. So, please note that any request dealing with React (e.g. extra features, customisations, et cetera) is to be considered out of the support scope.
+## :checkered_flag: Executing Project
 
-For more information about what support covers, please see our (FAQs)[https://cruip.com/faq/].
+Before running :checkered_flag:, você precisa ter [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
-## Credits
+Follow the steps below to run the project on your computer. (using terminal or git bash)
 
-- [Nucleo](https://nucleoapp.com/)
+```bash
+ # Cloning the repository
+$ git clone https://github.com/Anderson-Andre-P/landing-page-ie.git
 
-## Terms and License
+# Accessing THIS project directory
+$ cd './landing-page-ie'
 
-- Released under the [GPL](https://www.gnu.org/licenses/gpl-3.0.html).
-- Copyright 2020 [Cruip](https://cruip.com/).
-- Use it for personal and commercial projects, but please don’t republish, redistribute, or resell the template.
-- Attribution is not required, although it is really appreciated.
+# Installing the dependencies
+$ yarn OR npm install
 
-## About Us
+# Run project
+$ yarn run dev
+```
 
-We're an Italian developer/designer duo creating high-quality design/code resources for developers, makers, and startups.
+You can see how the application looks in its web version <a href="https://genuine-pika-26f547.netlify.app/">clicking here</a>
 
-## Stay in the loop
+## Contact
 
-If you would like to know when we release new resources, you can follow us on [Twitter](https://twitter.com/Cruip_com), or you can subscribe to our monthly [newsletter](https://cruip.com/#subscribe).
+If you have any questions or suggestions about the project, please feel free to contact us. You can find us at [provide contact information such as email address or link to a communication channel]. Thank you for your interest and support for the project!
+
+- LinkedIn at
+- Instagram
+
+<!-- &#xa0; -->
+
+## :memo: License
+
+This project is licensed under [LICENSE](LICENSE.md). Be sure to read the license file for more details.
+
+<a href="#top">Back to top</a>
