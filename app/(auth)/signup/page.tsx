@@ -1,9 +1,9 @@
 export const metadata = {
-  title: "Sign Up - Simple",
-  description: "Page description",
+  title: 'Cadastrar uma conta',
+  description: 'Page description',
 };
 
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function SignUp() {
   return (
@@ -13,7 +13,7 @@ export default function SignUp() {
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h1 className="h1">
-              {" "}
+              {' '}
               Bem vindo de volta. Existimos para facilitar o monitoramento de
               consumo.
             </h1>
@@ -81,11 +81,11 @@ export default function SignUp() {
                 </div>
               </div>
               <div className="text-sm text-gray-500 text-center mt-3">
-                Ao criar uma conta, você concorda com os{" "}
+                Ao criar uma conta, você concorda com os{' '}
                 <a className="underline" href="#0">
                   termos & condições
                 </a>
-                , e nossas{" "}
+                , e nossas{' '}
                 <a className="underline" href="#0">
                   políticas de privacidade
                 </a>
@@ -138,7 +138,7 @@ export default function SignUp() {
               </div>
             </form>
             <div className="text-gray-600 text-center mt-6">
-              Já está cadastrado?{" "}
+              Já está cadastrado?{' '}
               <Link
                 href="/signin"
                 className="text-blue-600 hover:underline transition duration-150 ease-in-out"

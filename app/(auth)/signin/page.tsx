@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Sign In - Simple',
+  title: 'Entrar na sua conta',
   description: 'Page description',
 };
 
