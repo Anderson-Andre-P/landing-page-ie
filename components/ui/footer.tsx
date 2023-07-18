@@ -1,4 +1,4 @@
-import Logo from "./logo";
+import Logo from './logo';
 
 export default function Footer() {
   return (
@@ -17,8 +17,8 @@ export default function Footer() {
                 className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out"
               >
                 Termos
-              </a>{" "}
-              ·{" "}
+              </a>{' '}
+              ·{' '}
               <a
                 href="#0"
                 className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out"
@@ -30,14 +30,14 @@ export default function Footer() {
 
           {/* 2nd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Produtos</h6>
+            <h6 className="text-gray-800 font-medium mb-2">Companhia</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <a
                   href="#0"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Web Studio
+                  Sobre
                 </a>
               </li>
               <li className="mb-2">
@@ -45,7 +45,7 @@ export default function Footer() {
                   href="#0"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  DynamicBox Flex
+                  Trabalhe conosco
                 </a>
               </li>
               <li className="mb-2">
@@ -53,23 +53,7 @@ export default function Footer() {
                   href="#0"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Programming Forms
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  Integrations
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  Command-line
+                  Blog
                 </a>
               </li>
             </ul>
@@ -84,7 +68,7 @@ export default function Footer() {
                   href="#0"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Documentation
+                  Documentação
                 </a>
               </li>
               <li className="mb-2">
@@ -92,7 +76,7 @@ export default function Footer() {
                   href="#0"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Tutorials & Guides
+                  Guias e tutoriais
                 </a>
               </li>
               <li className="mb-2">
@@ -100,7 +84,7 @@ export default function Footer() {
                   href="#0"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Blog
+                  Centro de suporte
                 </a>
               </li>
               <li className="mb-2">
@@ -108,15 +92,7 @@ export default function Footer() {
                   href="#0"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Support Center
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  Partners
+                  Parceiros
                 </a>
               </li>
             </ul>
@@ -124,14 +100,14 @@ export default function Footer() {
 
           {/* 4th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Empresarial</h6>
+            <h6 className="text-gray-800 font-medium mb-2">IE Tecnologia</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <a
                   href="#0"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Home
+                  Por que IE Tecnologia
                 </a>
               </li>
               <li className="mb-2">
@@ -139,7 +115,7 @@ export default function Footer() {
                   href="#0"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  About us
+                  Entre em contato
                 </a>
               </li>
               <li className="mb-2">
@@ -147,7 +123,7 @@ export default function Footer() {
                   href="#0"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Company values
+                  Segurança
                 </a>
               </li>
               <li className="mb-2">
@@ -155,7 +131,7 @@ export default function Footer() {
                   href="#0"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Pricing
+                  Controle
                 </a>
               </li>
               <li className="mb-2">
@@ -163,7 +139,7 @@ export default function Footer() {
                   href="#0"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Privacy Policy
+                  Contrato
                 </a>
               </li>
             </ul>
