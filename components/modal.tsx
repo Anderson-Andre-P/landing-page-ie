@@ -8,7 +8,7 @@ export default function Modal() {
   return (
     <>
       <button
-        className="block text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center fixed bottom-0 right-0 w-full md:bottom-8 md:right-12 md:w-auto z-60"
+        className="block text-white bg-red-600 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center fixed bottom-0 right-0 w-full md:bottom-8 md:right-12 md:w-auto z-60 max-sm:rounded-b-none max-md:rounded-b-none"
         type="button"
         onClick={() => setShowModal(true)}
       >
@@ -70,7 +70,7 @@ export default function Modal() {
                 <button
                   data-modal-hide="defaultModal"
                   type="button"
-                  className="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center "
+                  className="text-white bg-red-600 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center "
                   onClick={() => setShowModal(false)}
                 >
                   Eu aceito

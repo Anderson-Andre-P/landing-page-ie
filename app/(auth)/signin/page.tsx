@@ -1,9 +1,9 @@
 export const metadata = {
-  title: "Sign In - Simple",
-  description: "Page description",
+  title: 'Sign In - Simple',
+  description: 'Page description',
 };
 
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function SignIn() {
   return (
@@ -77,7 +77,7 @@ export default function SignIn() {
               </div>
               <div className="flex flex-wrap -mx-3 mt-6">
                 <div className="w-full px-3">
-                  <button className="btn text-white bg-blue-600 hover:bg-blue-700 w-full">
+                  <button className="btn text-white bg-red-600 hover:bg-red-700 w-full">
                     Entrar
                   </button>
                 </div>
@@ -129,7 +129,7 @@ export default function SignIn() {
               </div>
             </form>
             <div className="text-gray-600 text-center mt-6">
-              Não possui uma conta?{" "}
+              Não possui uma conta?{' '}
               <Link
                 href="/signup"
                 className="text-blue-600 hover:underline transition duration-150 ease-in-out"
