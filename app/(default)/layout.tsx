@@ -24,9 +24,10 @@ export default function DefaultLayout({
 
   return (
     <>
-      <main className="grow">{children}</main>
-
-      <Modal />
+      <main className="grow">
+        {children}
+        <Modal />
+      </main>
 
       <Footer />
     </>

@@ -1,7 +1,6 @@
 'use client';
 
-import { useState, Fragment } from 'react';
-
+import { useState, useRef, Fragment } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 
 export default function Modal() {
@@ -10,9 +9,11 @@ export default function Modal() {
   return (
     <>
       <button
-        className="block text-white bg-red-600 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center fixed bottom-0 right-0 w-full md:bottom-8 md:right-12 md:w-auto z-60 max-sm:rounded-b-none max-md:rounded-b-none"
+        className="block text-white bg-red-600 hover:bg-red-700 font-medium rounded text-sm px-5 py-2.5 text-center fixed bottom-0 right-0 w-full md:bottom-8 md:right-12 md:w-auto z-[99999] max-sm:rounded-b-none max-md:rounded-b-none shadow"
         type="button"
-        onClick={() => setShowModal(true)}
+        onClick={() => {
+          setShowModal(true);
+        }}
         data-aos="zoom-y-out"
         data-aos-delay="450"
       >
@@ -24,7 +25,7 @@ export default function Modal() {
             <Transition.Child
               id="defaultModal"
               aria-hidden="true"
-              className="flex justify-center items-center overflow-x-hidden overflow-y-auto fixed md:inset-0  max-h-full z-[99999] bg-black bg-opacity-75 transition-opacity"
+              className="flex justify-center items-center overflow-x-hidden overflow-y-auto fixed md:inset-0 max-md:inset-0  max-md:p-4 max-h-full z-[99999] bg-black bg-opacity-75 transition-opacity"
               enter="transition ease-out duration-200"
               enterFrom="opacity-0 scale-95"
               enterTo="opacity-100 scale-100"
@@ -33,15 +34,15 @@ export default function Modal() {
               leaveTo="opacity-0 scale-95"
             >
               <Dialog.Panel>
-                <div className=" w-full  max-w-2xl max-h-full">
-                  <div className=" bg-white rounded-lg shadow ">
+                <div className=" w-full max-w-2xl max-h-full">
+                  <div className=" bg-white rounded shadow ">
                     <div className="flex items-start justify-between p-4 border-b rounded-t">
                       <h3 className="text-xl font-semibold text-gray-900">
                         Você aceita nossos cookies?
                       </h3>
                       <button
                         type="button"
-                        className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center "
+                        className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded text-sm w-8 h-8 ml-auto inline-flex justify-center items-center "
                         data-modal-hide="defaultModal"
                         onClick={() => setShowModal(false)}
                       >
@@ -54,8 +55,6 @@ export default function Modal() {
                         >
                           <path
                             stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
                             stroke-width="2"
                             d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
                           />
@@ -84,7 +83,7 @@ export default function Modal() {
                       <button
                         data-modal-hide="defaultModal"
                         type="button"
-                        className="text-white bg-red-600 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center "
+                        className="text-white bg-red-600 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded text-sm px-5 py-2.5 text-center "
                         onClick={() => setShowModal(false)}
                       >
                         Eu aceito
@@ -92,7 +91,7 @@ export default function Modal() {
                       <button
                         data-modal-hide="defaultModal"
                         type="button"
-                        className="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-red-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10"
+                        className="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-red-300 rounded border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10"
                         onClick={() => setShowModal(false)}
                       >
                         Recusar
