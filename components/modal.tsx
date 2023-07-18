@@ -18,7 +18,7 @@ export default function Modal() {
         <div
           id="defaultModal"
           aria-hidden="true"
-          className="flex justify-center items-center overflow-x-hidden overflow-y-auto fixed md:inset-0  max-h-full bg-gradient-to-t from-neutral-900 to-transparent"
+          className="flex justify-center items-center overflow-x-hidden overflow-y-auto fixed md:inset-0  max-h-full bg-gradient-to-t from-neutral-900 to-transparent z-10"
         >
           <div className=" w-full  max-w-2xl max-h-full">
             <div className=" bg-white rounded-lg shadow ">
