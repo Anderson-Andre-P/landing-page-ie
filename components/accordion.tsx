@@ -14,26 +14,26 @@ export default function Accordion() {
             </p>
             <div className="">
               <details className="">
-                <summary className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 hover:bg-gray-200">
+                <summary className="flex items-center justify-between w-full p-5 font-semibold text-left text-gray-900 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 hover:bg-gray-200">
                   O que significa IE Tecnologia?
                 </summary>
-                <p className="p-5 border border-b-0 border-gray-200 text-gray-500 dark:text-gray-400">
+                <p className="p-5 border border-b-0 border-gray-200 text-gray-600">
                   Significa...
                 </p>
               </details>
               <details className="">
-                <summary className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200  hover:bg-gray-200">
+                <summary className="flex items-center justify-between w-full p-5 font-semibold text-left text-gray-900 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200  hover:bg-gray-200">
                   Onde se localiza a sede da empresa?
                 </summary>
-                <p className="p-5 border border-b-0 border-gray-200 text-gray-500 dark:text-gray-400">
+                <p className="p-5 border border-b-0 border-gray-200 text-gray-600">
                   Localiza...
                 </p>
               </details>
               <details className="">
-                <summary className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-1 border-gray-200 focus:ring-4 focus:ring-gray-200 hover:bg-gray-200">
+                <summary className="flex items-center justify-between w-full p-5 font-semibold text-left text-gray-900 border border-b-1 border-gray-200 focus:ring-4 focus:ring-gray-200 hover:bg-gray-200">
                   Tem alguma garantia?
                 </summary>
-                <p className="p-5 border border-b-1 border-gray-200 rounded-b-xl text-gray-500 dark:text-gray-400">
+                <p className="p-5 border border-b-1 border-gray-200 rounded-b-xl text-gray-600">
                   Garantia...
                 </p>
               </details>
