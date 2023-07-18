@@ -25,7 +25,7 @@ export default function Modal() {
             <Transition.Child
               id="defaultModal"
               aria-hidden="true"
-              className="flex justify-center items-center overflow-x-hidden overflow-y-auto fixed md:inset-0 max-md:inset-0  max-md:p-4 max-h-full z-[99999] bg-black bg-opacity-75 transition-opacity"
+              className="flex justify-center items-center overflow-x-hidden overflow-y-auto fixed md:inset-0 max-md:inset-0 max-md:p-4 max-h-full z-[99999] bg-black bg-opacity-75 transition-opacity"
               enter="transition ease-out duration-200"
               enterFrom="opacity-0 scale-95"
               enterTo="opacity-100 scale-100"
@@ -62,7 +62,7 @@ export default function Modal() {
                         <span className="sr-only">Fechar modal</span>
                       </button>
                     </div>
-                    <div className="p-6 space-y-6">
+                    <div className="p-6 space-y-6 max-md:h-60 max-sm:h-48 overflow-scroll">
                       <p className="text-base leading-relaxed text-gray-500">
                         Este documento possui a finalidade de estabelecer alguns
                         parâmetros para tratamento de dados que incluem, não
