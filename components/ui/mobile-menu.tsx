@@ -39,6 +39,9 @@ export default function MobileMenu() {
 
   return (
     <div className="flex md:hidden">
+      <div className="mr-4">
+        <ToggleTheme />
+      </div>
       {/* Hamburger button */}
       <button
         ref={trigger}
@@ -102,9 +105,6 @@ export default function MobileMenu() {
                   />
                 </svg>
               </Link>
-            </li>
-            <li>
-              <ToggleTheme />
             </li>
           </ul>
         </Transition>

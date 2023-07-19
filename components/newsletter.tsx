@@ -10,7 +10,7 @@ export default function Newsletter() {
           >
             {/* Background illustration */}
             <div
-              className="absolute right-0 bottom-0 pointer-events-none hidden lg:block"
+              className="absolute right-0 bottom-0 pointer-events-none hidden lg:block "
               aria-hidden="true"
             >
               <svg width="428" height="328" xmlns="http://www.w3.org/2000/svg">
