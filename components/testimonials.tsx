@@ -1,12 +1,12 @@
-import Image from "next/image";
-import TestimonialImage from "@/public/images/anderson_testimonial.jpeg";
+import Image from 'next/image';
+import TestimonialImage from '@/public/images/anderson_testimonial.jpeg';
 
 export default function Testimonials() {
   return (
     <section className="relative">
       {/* Illustration behind content */}
       <div
-        className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -mb-32 dark:bg-gray-800"
+        className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -mb-32"
         aria-hidden="true"
       >
         <svg
@@ -39,7 +39,7 @@ export default function Testimonials() {
         </svg>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 dark:bg-gray-800">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
@@ -166,7 +166,7 @@ export default function Testimonials() {
                   Anderson André
                 </cite>
                 <div className="text-gray-600 dark:text-gray-300">
-                  <span>Desenvolvedor de Software</span>{" "}
+                  <span>Desenvolvedor de Software</span>{' '}
                   <a
                     className="text-red-600 hover:underline"
                     href="https://www.linkedin.com/in/anderson-andre-pereira/"

@@ -1,9 +1,9 @@
-import Logo from "./logo";
+import Logo from './logo';
 
 export default function Footer() {
   return (
     <footer>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 dark:bg-gray-800">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 ">
         {/* Top area: Blocks */}
         <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12 border-t border-gray-200">
           {/* 1st block */}
@@ -17,8 +17,8 @@ export default function Footer() {
                 className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out dark:text-gray-300 dark:text-gray-300"
               >
                 Termos
-              </a>{" "}
-              ·{" "}
+              </a>{' '}
+              ·{' '}
               <a
                 href="#0"
                 className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out dark:text-gray-300 dark:text-gray-300"
@@ -164,7 +164,7 @@ export default function Footer() {
                     <input
                       id="newsletter"
                       type="email"
-                      className="form-input w-full px-3 py-2 pr-12 text-sm dark:bg-gray-800 border dark:border-gray-700 dark:focus:border-gray-600"
+                      className="form-input w-full px-3 py-2 pr-12 text-sm border dark:border-gray-700 dark:focus:border-gray-600"
                       placeholder="Seu e-mail"
                       required
                     />

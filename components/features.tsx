@@ -1,13 +1,13 @@
-"use client";
+'use client';
 
-import { useState, useRef, useEffect } from "react";
-import { Transition } from "@headlessui/react";
-import Image from "next/image";
-import FeaturesBg from "@/public/images/features-bg.png";
-import FeaturesBg_1 from "@/public/images/features-bg-1.png";
-import FeaturesBg_2 from "@/public/images/features-bg-2.png";
-import FeaturesBg_3 from "@/public/images/features-bg-3.png";
-import FeaturesElement from "@/public/images/features-element.png";
+import { useState, useRef, useEffect } from 'react';
+import { Transition } from '@headlessui/react';
+import Image from 'next/image';
+import FeaturesBg from '@/public/images/features-bg.png';
+import FeaturesBg_1 from '@/public/images/features-bg-1.png';
+import FeaturesBg_2 from '@/public/images/features-bg-2.png';
+import FeaturesBg_3 from '@/public/images/features-bg-3.png';
+import FeaturesElement from '@/public/images/features-element.png';
 
 export default function Features() {
   const [tab, setTab] = useState<number>(1);
@@ -27,12 +27,12 @@ export default function Features() {
     <section className="relative">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div
-        className="absolute inset-0 bg-gray-100 dark:bg-gray-800 pointer-events-none mb-16"
+        className="absolute inset-0  pointer-events-none mb-16"
         aria-hidden="true"
       ></div>
       <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
 
-      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 dark:bg-gray-800">
+      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 ">
         <div className="pt-12 md:pt-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
@@ -71,8 +71,8 @@ export default function Features() {
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 1
-                      ? " shadow-md border-gray-200 hover:shadow-lg dark:bg-gray-700 dark:border-gray-600"
-                      : "bg-gray-200 dark:bg-gray-600 border-transparent"
+                      ? ' shadow-md border-gray-200 hover:shadow-lg dark:bg-gray-700 dark:border-gray-600'
+                      : 'bg-gray-200 dark:bg-gray-600 border-transparent'
                   }`}
                   href="#0"
                   onClick={(e) => {
@@ -103,8 +103,8 @@ export default function Features() {
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 2
-                      ? " shadow-md border-gray-200 hover:shadow-lg dark:bg-gray-700 dark:border-gray-600"
-                      : "bg-gray-200 dark:bg-gray-600 border-transparent"
+                      ? ' shadow-md border-gray-200 hover:shadow-lg dark:bg-gray-700 dark:border-gray-600'
+                      : 'bg-gray-200 dark:bg-gray-600 border-transparent'
                   }`}
                   href="#0"
                   onClick={(e) => {
@@ -139,8 +139,8 @@ export default function Features() {
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 3
-                      ? " shadow-md border-gray-200 hover:shadow-lg dark:bg-gray-700 dark:border-gray-600"
-                      : "bg-gray-200 dark:bg-gray-600 border-transparent"
+                      ? ' shadow-md border-gray-200 hover:shadow-lg dark:bg-gray-700 dark:border-gray-600'
+                      : 'bg-gray-200 dark:bg-gray-600 border-transparent'
                   }`}
                   href="#0"
                   onClick={(e) => {

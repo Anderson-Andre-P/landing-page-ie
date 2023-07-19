@@ -1,5 +1,5 @@
-import VideoThumb from "@/public/images/hero-image.png";
-import ModalVideo from "@/components/modal-video";
+import VideoThumb from '@/public/images/hero-image.png';
+import ModalVideo from '@/components/modal-video';
 
 export default function Hero() {
   return (
@@ -35,7 +35,7 @@ export default function Hero() {
         </svg>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 dark:bg-gray-800 bg-gray-100">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 ">
         {/* Hero content */}
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           {/* Section header */}
@@ -46,7 +46,7 @@ export default function Hero() {
             >
               IE Tecnologia
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-red-700">
-                {" "}
+                {' '}
                 Inovando em Medições
               </span>
             </h1>
