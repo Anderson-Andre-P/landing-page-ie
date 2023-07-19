@@ -1,11 +1,12 @@
-'use client';
+"use client";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
-import Link from 'next/link';
-import Logo from './logo';
-import Dropdown from '@/components/utils/dropdown';
-import MobileMenu from './mobile-menu';
+import Link from "next/link";
+import Logo from "./logo";
+import Dropdown from "@/components/utils/dropdown";
+import MobileMenu from "./mobile-menu";
+import ToggleTheme from "../utils/toggle-theme";
 
 export default function Header() {
   const [top, setTop] = useState<boolean>(true);
@@ -17,14 +18,16 @@ export default function Header() {
 
   useEffect(() => {
     scrollHandler();
-    window.addEventListener('scroll', scrollHandler);
-    return () => window.removeEventListener('scroll', scrollHandler);
+    window.addEventListener("scroll", scrollHandler);
+    return () => window.removeEventListener("scroll", scrollHandler);
   }, [top]);
 
   return (
     <header
-      className={`fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${
-        !top ? 'bg-white backdrop-blur-sm shadow-lg' : ''
+      className={`fixed w-full z-30 md:bg-opacity-90 dark:md:bg-opacity-90 dark:bg-gray-800 transition duration-300 ease-in-out  ${
+        !top
+          ? "bg-white backdrop-blur-sm shadow-lg dark:bg-gray-800 dark:backdrop-blur-sm dark:shadow-lg"
+          : ""
       }`}
     >
       <div className="max-w-6xl mx-auto px-5 sm:px-6">
@@ -39,9 +42,12 @@ export default function Header() {
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
+                <ToggleTheme />
+              </li>
+              <li>
                 <Link
                   href="/signin"
-                  className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out dark:text-gray-300 dark:hover:text-gray-400"
                 >
                   Entrar
                 </Link>
