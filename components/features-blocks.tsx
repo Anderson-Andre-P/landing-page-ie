@@ -8,12 +8,12 @@ export default function FeaturesBlocks() {
       ></div>
       <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gray-200 transform translate-y-1/2"></div>
 
-      <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 dark:bg-gray-800">
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Nossos recursos</h2>
-            <p className="text-xl text-gray-600">
+            <h2 className="h2 mb-4 dark:text-gray-300">Nossos recursos</h2>
+            <p className="text-xl text-gray-600 dark:text-gray-300">
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur excepteur sint occaecat
               cupidatat.
@@ -23,7 +23,7 @@ export default function FeaturesBlocks() {
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
             {/* 1st item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl dark:bg-gray-700 dark:border-gray-600">
               <svg
                 className="w-16 h-16 p-1 -mt-1 mb-2"
                 viewBox="0 0 64 64"
@@ -58,10 +58,10 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 dark:text-gray-300">
                 Monitoramento eficiente
               </h4>
-              <p className="text-gray-600 text-center">
+              <p className="text-gray-600 text-center dark:text-gray-300">
                 Obtenha insights detalhados sobre o consumo de energia, água e
                 outros recursos, permitindo a identificação de padrões e
                 tendências para otimização.
@@ -69,7 +69,7 @@ export default function FeaturesBlocks() {
             </div>
 
             {/* 2nd item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl dark:bg-gray-700 dark:border-gray-600">
               <svg
                 className="w-16 h-16 p-1 -mt-1 mb-2"
                 viewBox="0 0 64 64"
@@ -101,10 +101,10 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 dark:text-gray-300">
                 Análises avançadas
               </h4>
-              <p className="text-gray-600 text-center">
+              <p className="text-gray-600 text-center dark:text-gray-300">
                 Nossos algoritmos inteligentes transformam dados brutos em
                 informações acionáveis, permitindo que você tome decisões
                 embasadas para melhorar a eficiência operacional.
@@ -112,7 +112,7 @@ export default function FeaturesBlocks() {
             </div>
 
             {/* 3rd item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl dark:bg-gray-700 dark:border-gray-600">
               <svg
                 className="w-16 h-16 p-1 -mt-1 mb-2"
                 viewBox="0 0 64 64"
@@ -147,10 +147,10 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 dark:text-gray-300">
                 Análise em tempo real
               </h4>
-              <p className="text-gray-600 text-center">
+              <p className="text-gray-600 text-center dark:text-gray-300">
                 Receba notificações imediatas sobre variações significativas no
                 consumo, vazamentos ou outras anomalias, permitindo uma resposta
                 rápida para evitar problemas maiores.
@@ -158,7 +158,7 @@ export default function FeaturesBlocks() {
             </div>
 
             {/* 4th item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl dark:bg-gray-700 dark:border-gray-600">
               <svg
                 className="w-16 h-16 p-1 -mt-1 mb-2"
                 viewBox="0 0 64 64"
@@ -192,10 +192,10 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 dark:text-gray-300">
                 Integração simplificada
               </h4>
-              <p className="text-gray-600 text-center">
+              <p className="text-gray-600 text-center dark:text-gray-300">
                 Nossos dispositivos IoT podem ser facilmente integrados ao seu
                 sistema existente, proporcionando uma experiência perfeita e
                 interoperabilidade com outras soluções.
@@ -203,7 +203,7 @@ export default function FeaturesBlocks() {
             </div>
 
             {/* 5th item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl dark:bg-gray-700 dark:border-gray-600">
               <svg
                 className="w-16 h-16 p-1 -mt-1 mb-2"
                 viewBox="0 0 64 64"
@@ -232,10 +232,10 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 dark:text-gray-300">
                 Sustentabilidade
               </h4>
-              <p className="text-gray-600 text-center">
+              <p className="text-gray-600 text-center dark:text-gray-300">
                 Ajudamos você a reduzir seu impacto ambiental, fornecendo dados
                 valiosos para implementar estratégias de conservação e promover
                 práticas empresariais responsáveis.
@@ -243,7 +243,7 @@ export default function FeaturesBlocks() {
             </div>
 
             {/* 6th item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl dark:bg-gray-700 dark:border-gray-600">
               <svg
                 className="w-16 h-16 p-1 -mt-1 mb-2"
                 viewBox="0 0 64 64"
@@ -268,10 +268,10 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 dark:text-gray-300">
                 Automação inteligente
               </h4>
-              <p className="text-gray-600 text-center">
+              <p className="text-gray-600 text-center dark:text-gray-300">
                 Nossa plataforma de dispositivos IoT oferece recursos avançados
                 de automação inteligente. Com base em dados precisos de
                 monitoramento, você pode programar ações automatizadas para

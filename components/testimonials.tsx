@@ -39,14 +39,17 @@ export default function Testimonials() {
         </svg>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 dark:bg-gray-800">
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h2 className="h2 mb-4">
+            <h2 className="h2 mb-4 dark:text-gray-300">
               Experiências de Sucesso com a IE Tecnologia
             </h2>
-            <p className="text-xl text-gray-600" data-aos="zoom-y-out">
+            <p
+              className="text-xl text-gray-600 dark:text-gray-300"
+              data-aos="zoom-y-out"
+            >
               Nossos clientes têm obtido resultados surpreendentes com os
               dispositivos IoT da IE Tecnologia. Veja o que eles têm a dizer
               sobre como nossas soluções revolucionaram suas operações,
@@ -126,7 +129,7 @@ export default function Testimonials() {
 
           {/* Testimonials */}
           <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
-            <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
+            <div className="relative flex items-start border-2 border-gray-200 rounded bg-white dark:bg-gray-700 dark:border-gray-600">
               {/* Testimonial */}
               <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
                 <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
@@ -146,7 +149,7 @@ export default function Testimonials() {
                     alt="Testimonial 01"
                   />
                 </div>
-                <blockquote className="text-xl font-medium mb-4">
+                <blockquote className="text-xl font-medium mb-4 dark:text-gray-300">
                   “A IE Tecnologia revolucionou a maneira como monitoramos e
                   controlamos o consumo de energia em nossa empresa. Seus
                   dispositivos IoT avançados fornecem insights precisos e em
@@ -159,10 +162,10 @@ export default function Testimonials() {
                   a todas as empresas que desejam melhorar sua eficiência e
                   reduzir seu impacto ambiental.“
                 </blockquote>
-                <cite className="block font-bold text-lg not-italic mb-1">
+                <cite className="block font-bold text-lg not-italic mb-1 dark:text-gray-300">
                   Anderson André
                 </cite>
-                <div className="text-gray-600">
+                <div className="text-gray-600 dark:text-gray-300">
                   <span>Desenvolvedor de Software</span>{" "}
                   <a
                     className="text-red-600 hover:underline"

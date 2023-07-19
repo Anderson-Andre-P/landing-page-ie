@@ -1,9 +1,9 @@
-import Logo from './logo';
+import Logo from "./logo";
 
 export default function Footer() {
   return (
     <footer>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 dark:bg-gray-800">
         {/* Top area: Blocks */}
         <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12 border-t border-gray-200">
           {/* 1st block */}
@@ -14,14 +14,14 @@ export default function Footer() {
             <div className="text-sm text-gray-600">
               <a
                 href="#0"
-                className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out"
+                className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out dark:text-gray-300 dark:text-gray-300"
               >
                 Termos
-              </a>{' '}
-              ·{' '}
+              </a>{" "}
+              ·{" "}
               <a
                 href="#0"
-                className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out"
+                className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out dark:text-gray-300 dark:text-gray-300"
               >
                 Política de Privacidade
               </a>
@@ -30,12 +30,14 @@ export default function Footer() {
 
           {/* 2nd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Companhia</h6>
+            <h6 className="text-gray-800 font-medium mb-2 dark:text-gray-300">
+              Companhia
+            </h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <a
                   href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out dark:text-gray-300 dark:text-gray-300"
                 >
                   Sobre
                 </a>
@@ -43,7 +45,7 @@ export default function Footer() {
               <li className="mb-2">
                 <a
                   href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out dark:text-gray-300 dark:text-gray-300"
                 >
                   Trabalhe conosco
                 </a>
@@ -51,7 +53,7 @@ export default function Footer() {
               <li className="mb-2">
                 <a
                   href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out dark:text-gray-300"
                 >
                   Blog
                 </a>
@@ -66,7 +68,7 @@ export default function Footer() {
               <li className="mb-2">
                 <a
                   href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out dark:text-gray-300"
                 >
                   Documentação
                 </a>
@@ -74,7 +76,7 @@ export default function Footer() {
               <li className="mb-2">
                 <a
                   href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out dark:text-gray-300"
                 >
                   Guias e tutoriais
                 </a>
@@ -82,7 +84,7 @@ export default function Footer() {
               <li className="mb-2">
                 <a
                   href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out dark:text-gray-300"
                 >
                   Centro de suporte
                 </a>
@@ -90,7 +92,7 @@ export default function Footer() {
               <li className="mb-2">
                 <a
                   href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out dark:text-gray-300"
                 >
                   Parceiros
                 </a>
@@ -105,7 +107,7 @@ export default function Footer() {
               <li className="mb-2">
                 <a
                   href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out dark:text-gray-300"
                 >
                   Por que IE Tecnologia
                 </a>
@@ -113,7 +115,7 @@ export default function Footer() {
               <li className="mb-2">
                 <a
                   href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out dark:text-gray-300"
                 >
                   Entre em contato
                 </a>
@@ -121,7 +123,7 @@ export default function Footer() {
               <li className="mb-2">
                 <a
                   href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out dark:text-gray-300"
                 >
                   Segurança
                 </a>
@@ -129,7 +131,7 @@ export default function Footer() {
               <li className="mb-2">
                 <a
                   href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out dark:text-gray-300"
                 >
                   Controle
                 </a>
@@ -137,7 +139,7 @@ export default function Footer() {
               <li className="mb-2">
                 <a
                   href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out dark:text-gray-300"
                 >
                   Contrato
                 </a>
@@ -148,7 +150,7 @@ export default function Footer() {
           {/* 5th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
             <h6 className="text-gray-800 font-medium mb-2">Inscrições</h6>
-            <p className="text-sm text-gray-600 mb-4">
+            <p className="text-sm text-gray-600 mb-4 dark:text-gray-300">
               Tenha acesso a nossa newsletter semanal com as últimas notícias
               sobre consumo inteligênte.
             </p>
@@ -162,21 +164,21 @@ export default function Footer() {
                     <input
                       id="newsletter"
                       type="email"
-                      className="form-input w-full text-gray-800 px-3 py-2 pr-12 text-sm"
+                      className="form-input w-full px-3 py-2 pr-12 text-sm dark:bg-gray-800 border dark:border-gray-700 dark:focus:border-gray-600"
                       placeholder="Seu e-mail"
                       required
                     />
                     <button
                       type="submit"
-                      className="absolute inset-0 left-auto"
+                      className="absolute inset-0 dark:text-white  dark:bg-red-600 dark:hover:bg-red-700 left-auto"
                       aria-label="Subscribe"
                     >
                       <span
-                        className="absolute inset-0 right-auto w-px -ml-px my-2 bg-gray-300"
+                        className="absolute inset-0 right-auto w-px -ml-px my-2 bg-gray-700 dark:hidden"
                         aria-hidden="true"
                       ></span>
                       <svg
-                        className="w-3 h-3 fill-current text-red-600 mx-3 shrink-0"
+                        className="w-3 h-3 fill-current  dark:text-white mx-3 shrink-0"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
                       >
@@ -204,7 +206,7 @@ export default function Footer() {
             <li>
               <a
                 href="#0"
-                className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out dark:text-gray-300 dark:bg-gray-700"
                 aria-label="Twitter"
               >
                 <svg
@@ -220,7 +222,7 @@ export default function Footer() {
               <a
                 href="https://github.com/Anderson-Andre-P"
                 target="_blank"
-                className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out dark:text-gray-300 dark:bg-gray-700"
                 aria-label="Github"
               >
                 <svg
@@ -235,7 +237,7 @@ export default function Footer() {
             <li className="ml-4">
               <a
                 href="#0"
-                className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out dark:text-gray-300 dark:bg-gray-700"
                 aria-label="Facebook"
               >
                 <svg
@@ -250,7 +252,7 @@ export default function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">
+          <div className="text-sm text-gray-600 mr-4 dark:text-gray-300">
             &copy; IE Tecnologia. Todos os direitos reservados.
           </div>
         </div>

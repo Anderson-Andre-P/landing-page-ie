@@ -32,12 +32,14 @@ export default function Features() {
       ></div>
       <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
 
-      <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 dark:bg-gray-800">
         <div className="pt-12 md:pt-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Explore nossas soluções</h1>
-            <p className="text-xl text-gray-600">
+            <h1 className="h2 mb-4 text-gray-900 dark:text-gray-300">
+              Explore nossas soluções
+            </h1>
+            <p className="text-xl text-gray-600 dark:text-gray-300">
               Descubra uma nova maneira de gerenciar seu consumo de energia e
               água com nossos medidores inteligentes, conectados à Internet das
               Coisas (IoT). Na IE Tecnologia, acreditamos que o conhecimento é
@@ -55,10 +57,10 @@ export default function Features() {
               data-aos="fade-right"
             >
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">
+                <h3 className="h3 mb-3 dark:text-gray-300">
                   Otimize seu consumo, economize recursos, faça a diferença!
                 </h3>
-                <p className="text-xl text-gray-600">
+                <p className="text-xl text-gray-600 dark:text-gray-300">
                   Com dados precisos e em tempo real, você pode identificar
                   padrões de consumo, detectar desperdícios e implementar
                   medidas eficientes para reduzir seus gastos.
@@ -69,8 +71,8 @@ export default function Features() {
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 1
-                      ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
-                      : "bg-gray-200 border-transparent"
+                      ? " shadow-md border-gray-200 hover:shadow-lg dark:bg-gray-700 dark:border-gray-600"
+                      : "bg-gray-200 dark:bg-gray-600 border-transparent"
                   }`}
                   href="#0"
                   onClick={(e) => {
@@ -79,10 +81,10 @@ export default function Features() {
                   }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">
+                    <div className="font-bold leading-snug tracking-tight mb-1 dark:text-gray-300">
                       Tenha o controle na palma da sua mão
                     </div>
-                    <div className="text-gray-600">
+                    <div className="text-gray-600 dark:text-gray-300">
                       Acompanhe o uso de energia e água por períodos
                       específicos, analise tendências, estabeleça metas
                       personalizadas e receba notificações em tempo real.
@@ -101,8 +103,8 @@ export default function Features() {
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 2
-                      ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
-                      : "bg-gray-200 border-transparent"
+                      ? " shadow-md border-gray-200 hover:shadow-lg dark:bg-gray-700 dark:border-gray-600"
+                      : "bg-gray-200 dark:bg-gray-600 border-transparent"
                   }`}
                   href="#0"
                   onClick={(e) => {
@@ -111,11 +113,11 @@ export default function Features() {
                   }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">
+                    <div className="font-bold leading-snug tracking-tight mb-1 dark:text-gray-300">
                       Segurança, privacidade e confiabilidade - nossos valores
                       fundamentais
                     </div>
-                    <div className="text-gray-600">
+                    <div className="text-gray-600 dark:text-gray-300">
                       Utilizamos as mais avançadas medidas de segurança para
                       proteger suas informações e garantir que apenas você tenha
                       acesso aos seus dados.
@@ -137,8 +139,8 @@ export default function Features() {
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 3
-                      ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
-                      : "bg-gray-200 border-transparent"
+                      ? " shadow-md border-gray-200 hover:shadow-lg dark:bg-gray-700 dark:border-gray-600"
+                      : "bg-gray-200 dark:bg-gray-600 border-transparent"
                   }`}
                   href="#0"
                   onClick={(e) => {
@@ -147,10 +149,10 @@ export default function Features() {
                   }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">
+                    <div className="font-bold leading-snug tracking-tight mb-1 dark:text-gray-300">
                       Transforme dados em ação e faça a diferença agora mesmo!
                     </div>
-                    <div className="text-gray-600">
+                    <div className="text-gray-600 dark:text-gray-300">
                       Com a IE Tecnologia, você terá acesso a insights valiosos
                       que ajudarão a reduzir custos, aumentar a eficiência e
                       contribuir para um planeta mais sustentável.
