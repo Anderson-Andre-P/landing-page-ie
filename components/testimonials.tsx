@@ -6,7 +6,7 @@ export default function Testimonials() {
     <section className="relative">
       {/* Illustration behind content */}
       <div
-        className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -mb-32"
+        className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -mb-32 "
         aria-hidden="true"
       >
         <svg
@@ -14,6 +14,7 @@ export default function Testimonials() {
           height="518"
           viewBox="0 0 1760 518"
           xmlns="http://www.w3.org/2000/svg"
+          className="dark:hidden"
         >
           <defs>
             <linearGradient
