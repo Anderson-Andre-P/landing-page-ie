@@ -1,4 +1,4 @@
-import Logo from './logo';
+import Logo from "./logo";
 
 export default function Footer() {
   return (
@@ -14,14 +14,14 @@ export default function Footer() {
             <div className="text-sm text-gray-600">
               <a
                 href="#0"
-                className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out dark:text-gray-300 dark:text-gray-300"
+                className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out  dark:text-gray-300"
               >
                 Termos
-              </a>{' '}
-              ·{' '}
+              </a>{" "}
+              ·{" "}
               <a
                 href="#0"
-                className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out dark:text-gray-300 dark:text-gray-300"
+                className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out  dark:text-gray-300"
               >
                 Política de Privacidade
               </a>
@@ -36,8 +36,8 @@ export default function Footer() {
             <ul className="text-sm">
               <li className="mb-2">
                 <a
-                  href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out dark:text-gray-300 dark:text-gray-300"
+                  href="/about"
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out dark:text-gray-300"
                 >
                   Sobre
                 </a>
@@ -45,7 +45,7 @@ export default function Footer() {
               <li className="mb-2">
                 <a
                   href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out dark:text-gray-300 dark:text-gray-300"
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out  dark:text-gray-300"
                 >
                   Trabalhe conosco
                 </a>
@@ -63,7 +63,9 @@ export default function Footer() {
 
           {/* 3rd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Recursos</h6>
+            <h6 className="text-gray-800 font-medium mb-2 dark:text-gray-300">
+              Recursos
+            </h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <a
@@ -102,7 +104,9 @@ export default function Footer() {
 
           {/* 4th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">IE Tecnologia</h6>
+            <h6 className="text-gray-800 font-medium mb-2 dark:text-gray-300">
+              IE Tecnologia
+            </h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <a
@@ -149,7 +153,9 @@ export default function Footer() {
 
           {/* 5th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
-            <h6 className="text-gray-800 font-medium mb-2">Inscrições</h6>
+            <h6 className="text-gray-800 font-medium mb-2 dark:text-gray-300">
+              Inscrições
+            </h6>
             <p className="text-sm text-gray-600 mb-4 dark:text-gray-300">
               Tenha acesso a nossa newsletter semanal com as últimas notícias
               sobre consumo inteligênte.
