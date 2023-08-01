@@ -91,7 +91,7 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="max-w-screen-md mb-8 lg:mb-16 ">
+          <div className="max-w-3xl mx-auto text-center mb-8 lg:mb-16 ">
             <SectionTitle title="Nossos valores" />
 
             <SectionParagraph paragraph="Na IE Tecnologia, nossos valores fundamentais orientam cada aspecto de nossas operações e interações com clientes e parceiros. Eles são a essência do nosso DNA corporativo e definem quem somos como empresa." />
