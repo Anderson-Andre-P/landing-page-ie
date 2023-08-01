@@ -1,11 +1,11 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
+import { useState } from "react";
 
 export default function Accordion() {
   return (
     <>
-      <div className="">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="bg-white dark:bg-gray-800">
           <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
             <h2 className="h2 mb-2 dark:text-gray-300">Perguntas frequentes</h2>
